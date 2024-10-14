@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     name: A job to test action
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - name: JSON to variables
       uses: 34ml/json-to-variables@main
       with:

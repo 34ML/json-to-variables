@@ -25,8 +25,8 @@ try {
             });
         }
         else if (typeof variable === 'object') {
-            for (const key in variable) {
-                if (rootObj.hasOwnProperty(key)) {
+            for(const key in variable) {
+                if(rootObj.hasOwnProperty(key)){
                     processVariable(variable[key], key);
                 }
                 else {
