@@ -11,6 +11,7 @@ inputs:
   prefix:
     description: 'The prefix for variables.'
     required: false
+    default: ''
   masked:
     description: 'Mask variables as secrets.'
     required: false
