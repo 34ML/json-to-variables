@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: JSON to variables
-      uses: 34ml/json-to-variables@HEAD
+      uses: 34ml/json-to-variables@main
       with:
         filename: 'test.json'
     - name: Show output
